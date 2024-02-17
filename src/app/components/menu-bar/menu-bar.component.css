@@ -1,9 +1,55 @@
-.container__menu-bar > ul {
+.container__menu-bar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 16px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: black;
 }
 
-.container__menu-bar > ul > li {
+.container__menu-bar .logo{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.container__menu-bar .logo > p {
+  font-size: small;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  align-self: end;
+}
+
+.container__menu-bar .logo > a > h1{
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+.container__menu-bar .logo > a > h1 > span {
+  color: rgb(223, 52, 52);
+  background-color: black;
+}
+
+.container__menu-bar > ul {
+  display: flex;
   list-style: none;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+  background-color: black;
+}
+
+.container__menu-bar > ul > li > a {
+  margin-right: 30px;
+  background-color: black;
+  color: white;
+}
+
+.container__menu-bar > ul > li > span {
   margin-right: 20px;
+  background-color: black;
+  color: white;
 }

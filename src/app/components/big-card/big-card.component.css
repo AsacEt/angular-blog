@@ -1,5 +1,5 @@
 .container__big-card{
-  width: 400px;
+  width: 600px;
   height: 500px;
   margin-left: 30px;
   margin-right: 10px;
@@ -11,8 +11,9 @@
 }
 
 .big-card__photo > img {
-  width: 50%;
-  min-width: 400px
+  width: 100%;
+  min-width: 600px;
+  border-radius: 30px;
 }
 
 .big-card__title {
@@ -20,7 +21,7 @@
 }
 
 .big-card__title > h1 > a{
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .big-card__description {
@@ -28,7 +29,7 @@
 }
 
 .big-card__description > p > a{
-  font-size: 16px;
+  font-size: 18px;
   color: grey
 }
 

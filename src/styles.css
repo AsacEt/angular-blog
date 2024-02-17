@@ -1,11 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-  background-color: #111111;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-height: 100%;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
 }
 
 a {
